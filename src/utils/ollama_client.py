@@ -61,7 +61,7 @@ class OllamaClient:
             response = requests.post(
                 self.api_url,
                 json=payload,
-                timeout=60
+                timeout=120  # 2 min timeout pour GPU
             )
             response.raise_for_status()
             
