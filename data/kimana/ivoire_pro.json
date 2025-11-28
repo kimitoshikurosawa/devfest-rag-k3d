@@ -1,0 +1,82 @@
+{
+  "ivoire_pro": {
+    "name": "Ivoire.pro",
+    "tagline": "Plateforme d'identité digitale pour professionnels ouest-africains",
+    "founded": "2024",
+    "founders": [
+      {
+        "name": "Kimana Misago",
+        "role": "Co-founder & CTO"
+      }
+    ],
+    "mission": "Fournir une solution d'identité digitale souveraine et sécurisée pour les professionnels de l'Afrique de l'Ouest",
+    "vision": "Devenir la référence en matière d'identité digitale professionnelle dans l'espace UEMOA et au-delà",
+    "core_values": [
+      "Digital Sovereignty",
+      "Data Privacy",
+      "Local Hosting",
+      "African-centric Solutions"
+    ],
+    "key_features": {
+      "digital_identity": "Profils professionnels vérifiés pour les talents ouest-africains",
+      "sovereignty": "Hébergement local et contrôle total des données",
+      "verification": "Système de vérification d'identité robuste",
+      "networking": "Mise en relation de professionnels dans l'écosystème tech africain"
+    },
+    "technology_stack": {
+      "backend": "Modern cloud-native architecture",
+      "hosting": "Local hosting solutions in West Africa",
+      "security": "Enterprise-grade security and compliance",
+      "infrastructure": "Kubernetes-based scalable infrastructure"
+    },
+    "partnerships": [
+      {
+        "partner": "Hodi",
+        "type": "Hosting Solutions",
+        "focus": "Local hosting infrastructure in West Africa",
+        "status": "Active"
+      }
+    ],
+    "target_market": {
+      "primary": "UEMOA (West African Economic and Monetary Union)",
+      "countries": [
+        "Côte d'Ivoire",
+        "Sénégal",
+        "Burkina Faso",
+        "Mali",
+        "Bénin",
+        "Togo",
+        "Niger",
+        "Guinée-Bissau"
+      ],
+      "sectors": [
+        "Technology & IT",
+        "Engineering",
+        "Finance",
+        "Consulting",
+        "Creative Industries"
+      ]
+    },
+    "differentiators": [
+      "Focus on African context and needs",
+      "Data sovereignty and local hosting",
+      "Built by Africans for Africans",
+      "Understanding of local regulatory landscape",
+      "Integration with regional payment systems"
+    ],
+    "recent_developments": {
+      "2025": [
+        "Partnership development with Hodi for local hosting",
+        "Pricing optimization and market positioning",
+        "Landing page updates showcasing digital sovereignty",
+        "Expansion planning across UEMOA region"
+      ]
+    },
+    "website": "ivoire.pro",
+    "blog": "kimana.ivoire.pro",
+    "contact": {
+      "email": "contact@ivoire.pro",
+      "location": "Abidjan, Côte d'Ivoire"
+    }
+  }
+}

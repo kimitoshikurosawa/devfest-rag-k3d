@@ -1,0 +1,70 @@
+{
+  "event_info": {
+    "name": "DevFest Cloud Abidjan & Cocody 2025",
+    "date": "29 Novembre 2025",
+    "location": {
+      "venue": "Palm Club Hôtel",
+      "city": "Abidjan",
+      "country": "Côte d'Ivoire"
+    },
+    "theme": "INNOVATION-IA-CLOUD",
+    "tagline": "Ensemble, construisons l'avenir",
+    "organizer": "Google Developer Groups (GDG) Cloud Abidjan",
+    "sponsors": [
+      {
+        "name": "ATOS",
+        "type": "platinum",
+        "representative": "Vincent CLAUSTRE"
+      },
+      {
+        "name": "FATA",
+        "type": "gold"
+      },
+      {
+        "name": "Dextrem",
+        "type": "gold"
+      },
+      {
+        "name": "Abidjanaises in Tech",
+        "type": "community"
+      },
+      {
+        "name": "Google Developer Groups",
+        "type": "organizer"
+      }
+    ],
+    "tracks": [
+      "Cloud Computing",
+      "Intelligence Artificielle",
+      "DevOps & Kubernetes",
+      "Firebase & Mobile",
+      "Sécurité & Éthique",
+      "Entrepreneuriat Tech"
+    ],
+    "statistics": {
+      "expected_attendees": "300+",
+      "talks": 11,
+      "workshops": 1,
+      "hackathon": true,
+      "networking_sessions": 2
+    },
+    "special_events": [
+      {
+        "name": "Hackathon",
+        "description": "Présentation des finalistes et remise des prix"
+      },
+      {
+        "name": "GDG Cloud Abidjan 5 ans",
+        "description": "Célébration des 5 ans de la communauté",
+        "speaker": "EZEKIAS BOKOVE"
+      }
+    ],
+    "contact": {
+      "website": "devfest.gdgcloudabidjan.com",
+      "social": {
+        "twitter": "@GDGCloudAbidjan",
+        "linkedin": "GDG Cloud Abidjan"
+      }
+    }
+  }
+}

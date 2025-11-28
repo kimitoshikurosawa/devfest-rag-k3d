@@ -1,0 +1,139 @@
+{
+  "projects_and_companies": {
+    "active_ventures": [
+      {
+        "name": "Cabinet MARABU",
+        "role": "Senior DevOps Engineer",
+        "type": "Consulting",
+        "status": "Active",
+        "description": "Cabinet de conseil en transformation digitale servant 200+ clients",
+        "key_clients": [
+          "GUCE-CI (Guichet Unique du Commerce Extérieur)",
+          "ERANOVE (Groupe énergétique)"
+        ],
+        "services": [
+          "Cloud Infrastructure Design",
+          "DevOps Transformation",
+          "Kubernetes Training and Implementation",
+          "CI/CD Pipeline Setup",
+          "Security Audits"
+        ],
+        "notable_projects": [
+          {
+            "name": "GUCE-CI Data Platform",
+            "description": "Comprehensive data platform initiative with stakeholder management",
+            "technologies": ["Kubernetes", "Cloud Infrastructure", "Data Engineering"]
+          },
+          {
+            "name": "Kubernetes Training Programs",
+            "description": "Advanced training for GUCE-CI engineers",
+            "focus": ["Lab materials", "Troubleshooting scenarios", "Best practices"]
+          }
+        ]
+      },
+      {
+        "name": "IvoryGuards",
+        "role": "Lead",
+        "type": "Cybersecurity Consulting",
+        "status": "Active",
+        "location": "Abidjan, Côte d'Ivoire",
+        "description": "Collective de conseil en cybersécurité pour entreprises locales",
+        "services": [
+          "Security Assessments",
+          "Technical Audits",
+          "Penetration Testing",
+          "Security Training",
+          "Incident Response"
+        ],
+        "focus": "Supporting local businesses in strengthening their security posture"
+      },
+      {
+        "name": "Insight Financial",
+        "involvement": "Consulting/Advisory",
+        "status": "Recently Launched",
+        "launch_date": "2025-11-27",
+        "venue": "Riviera Golf, Abidjan",
+        "description": "Financial services platform focused on UEMOA markets",
+        "services": [
+          "Investment Advisory",
+          "Public Securities",
+          "Crypto-assets",
+          "International Real Estate",
+          "Fundraising Consulting"
+        ],
+        "target_market": "UEMOA monetary markets and PI-SPI payment system"
+      }
+    ],
+    "past_ventures": [
+      {
+        "name": "MPlaces Africa",
+        "type": "E-commerce Platform",
+        "status": "Past",
+        "description": "E-commerce platform with escrow services for African market",
+        "technologies": ["Firebase", "FilamentPHP", "Multi-tenancy Architecture"],
+        "focus": ["Mobile Money Integration", "Data Sovereignty", "Escrow Services"]
+      },
+      {
+        "name": "DOMOSO CONNECT",
+        "type": "Connectivity Solutions",
+        "status": "Past",
+        "description": "Rural connectivity solutions for underserved areas",
+        "focus": ["WiFi Deployment", "Network Architecture", "Telecommunications"]
+      },
+      {
+        "name": "NOMALO",
+        "type": "P2P Marketplace",
+        "status": "Past",
+        "description": "Peer-to-peer marketplace platform"
+      }
+    ],
+    "consulting_and_advisory": {
+      "upwork_presence": "Active freelancing profile",
+      "expertise_areas": [
+        "Cloud Architecture Design",
+        "Kubernetes Implementation",
+        "DevOps Transformation",
+        "Security Consulting",
+        "African Market Digital Solutions"
+      ],
+      "clients": [
+        "Government entities (GUCE-CI)",
+        "Energy sector (ERANOVE)",
+        "Financial services",
+        "Technology startups"
+      ]
+    },
+    "notable_achievements": {
+      "infrastructure": [
+        "WiFi deployment projects across Côte d'Ivoire",
+        "Network architecture design for major organizations",
+        "Kubernetes training programs for government engineers"
+      ],
+      "partnerships": [
+        "Telecommunications providers in Côte d'Ivoire",
+        "Government entities for digital transformation",
+        "AMT Transit for UI/UX redesign projects"
+      ],
+      "community_impact": [
+        "Mentorship for professionals transitioning to cloud/DevOps",
+        "Technical blog on cybersecurity at kimana.ivoire.pro",
+        "Speaker at DevFest Abidjan 2025",
+        "Contribution to local tech ecosystem development"
+      ]
+    },
+    "technical_focus_areas": {
+      "current": [
+        "Multi-agent RAG systems",
+        "Local AI deployment on Kubernetes",
+        "BCEAO regulations and PI-SPI payment systems",
+        "Digital sovereignty solutions for Africa",
+        "Cloud-native architectures"
+      ],
+      "upcoming": [
+        "Expansion of Ivoire.pro across UEMOA",
+        "Advanced AI/ML implementations",
+        "Regional cloud infrastructure solutions"
+      ]
+    }
+  }
+}

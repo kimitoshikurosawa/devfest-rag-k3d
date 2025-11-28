@@ -1,0 +1,106 @@
+{
+  "speakers": [
+    {
+      "name": "Kimana Misago",
+      "title": "Co-founder & CTO @ Ivoire.pro | Senior DevOps Engineer @ Cabinet MARABU",
+      "certifications": ["KCNA", "Google Cloud Certified"],
+      "talk": {
+        "title": "De Kubernetes à Gemma : Déployer un Agent IA (RAG) en Live",
+        "time": "12:25-12:55",
+        "description": "Démonstration complète du déploiement d'un système RAG multi-agents sur Kubernetes utilisant Gemma en local"
+      },
+      "bio": "Expert DevOps et cloud avec 9+ ans d'expérience. Co-fondateur d'Ivoire.pro, plateforme d'identité digitale pour professionnels ouest-africains. Lead IvoryGuards, collectif de cybersécurité à Abidjan."
+    },
+    {
+      "name": "Nadia TRAORE",
+      "role": "Keynote Speaker",
+      "talk": {
+        "title": "Keynote d'ouverture",
+        "time": "10:00-10:15"
+      }
+    },
+    {
+      "name": "Christelle Vignon",
+      "talks": [
+        {
+          "title": "Panel: L'IA et le CLOUD : moteur de transformation digitale en Afrique",
+          "time": "10:30-11:15",
+          "type": "panel"
+        },
+        {
+          "title": "Opportunités, sécurité, infrastructures et éthique: une approche équilibrée pour l'Afrique",
+          "time": "11:55-12:25"
+        }
+      ]
+    },
+    {
+      "name": "Sandy KEZAKO",
+      "talk": {
+        "title": "Panel: L'IA et le CLOUD : moteur de transformation digitale en Afrique",
+        "time": "10:30-11:15",
+        "type": "panel"
+      }
+    },
+    {
+      "name": "Vincent CLAUSTRE",
+      "company": "ATOS",
+      "role": "Directeur Général ATOS",
+      "talks": [
+        {
+          "title": "Panel: L'IA et le CLOUD",
+          "time": "10:30-11:15",
+          "type": "panel"
+        },
+        {
+          "title": "SPONSOR ATOS",
+          "time": "11:15-11:25",
+          "type": "sponsor"
+        }
+      ]
+    },
+    {
+      "name": "SimonTIBE",
+      "talk": {
+        "title": "Panel: L'IA et le CLOUD",
+        "time": "10:30-11:15",
+        "type": "panel"
+      }
+    },
+    {
+      "name": "OMAR FAROUK",
+      "talk": {
+        "title": "Prototypage d'applications Flutter dans le Cloud : DartPad, Firebase Studio et Gemini",
+        "time": "11:25-11:55"
+      }
+    },
+    {
+      "name": "ROBERT JOHN",
+      "talk": {
+        "title": "Edge AI with Edge Impulse",
+        "time": "14:35-15:05"
+      }
+    },
+    {
+      "name": "Louis KOUASSI",
+      "talk": {
+        "title": "Logique d'IA Firebase",
+        "time": "15:05-15:35"
+      }
+    },
+    {
+      "name": "Anita Dadouo",
+      "talk": {
+        "title": "Entreprendre avec l'IA: créer un business intelligent avec peu de moyen",
+        "time": "15:35-16:05"
+      }
+    },
+    {
+      "name": "EZEKIAS BOKOVE",
+      "talk": {
+        "title": "Les 5 ans du GDG CLOUD ABIDJAN",
+        "time": "16:15-16:30",
+        "type": "celebration"
+      }
+    }
+  ]
+}

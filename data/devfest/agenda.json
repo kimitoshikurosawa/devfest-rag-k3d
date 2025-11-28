@@ -1,0 +1,106 @@
+{
+  "event": {
+    "name": "DevFest Cloud Abidjan & Cocody 2025",
+    "date": "2025-11-29",
+    "location": "Palm Club Hôtel",
+    "theme": "INNOVATION-IA-CLOUD - Ensemble, construisons l'avenir"
+  },
+  "schedule": [
+    {
+      "time": "09:30-10:00",
+      "title": "Accueil des participants, remises des badges et installations",
+      "type": "registration"
+    },
+    {
+      "time": "10:00-10:15",
+      "title": "Keynote d'ouverture",
+      "speaker": "Nadia TRAORE",
+      "type": "keynote"
+    },
+    {
+      "time": "10:30-11:15",
+      "title": "PANEL: L'IA et le CLOUD : moteur de transformation digitale en Afrique",
+      "speakers": ["Christelle Vignon", "Sandy KEZAKO", "Vincent CLAUSTRE", "SimonTIBE"],
+      "type": "panel"
+    },
+    {
+      "time": "11:15-11:25",
+      "title": "SPONSOR ATOS",
+      "speaker": "DG ATOS (VINCENT CLAUSTRE)",
+      "type": "sponsor"
+    },
+    {
+      "time": "11:25-11:55",
+      "title": "Prototypage d'applications Flutter dans le Cloud : DartPad, Firebase Studio et Gemini",
+      "speaker": "OMAR FAROUK",
+      "type": "talk"
+    },
+    {
+      "time": "11:55-12:25",
+      "title": "Opportunités, sécurité, infrastructures et éthique: une approche équilibrée pour l'Afrique",
+      "speaker": "CHRISTELLE VIGNON",
+      "type": "talk"
+    },
+    {
+      "time": "12:25-12:55",
+      "title": "De Kubernetes à Gemma : Déployer un Agent IA (RAG) en Live",
+      "speaker": "KIMANA MISAGO",
+      "type": "talk",
+      "description": "Démonstration live du déploiement d'un système RAG multi-agents sur Kubernetes avec Gemma"
+    },
+    {
+      "time": "12:55-13:35",
+      "title": "Présentation des finalistes du hackathon",
+      "type": "hackathon"
+    },
+    {
+      "time": "13:35-14:15",
+      "title": "Pause, Activités récréatives et séance photo",
+      "type": "break"
+    },
+    {
+      "time": "14:15-14:35",
+      "title": "Jeux, QUIZ, chants, réseautage",
+      "type": "activities"
+    },
+    {
+      "time": "14:35-15:05",
+      "title": "Edge AI with Edge Impulse",
+      "speaker": "ROBERT JOHN",
+      "type": "talk"
+    },
+    {
+      "time": "15:05-15:35",
+      "title": "Logique d'IA Firebase",
+      "speaker": "Louis KOUASSI",
+      "type": "talk"
+    },
+    {
+      "time": "15:35-16:05",
+      "title": "Entreprendre avec l'IA: créer un business intelligent avec peu de moyen",
+      "speaker": "Anita Dadouo",
+      "type": "talk"
+    },
+    {
+      "time": "16:05-16:10",
+      "title": "SPONSOR ABIDJANAISES IN TECH",
+      "type": "sponsor"
+    },
+    {
+      "time": "16:10-16:15",
+      "title": "SPONSOR FATA: Recompense Concours fata",
+      "type": "sponsor"
+    },
+    {
+      "time": "16:15-16:30",
+      "title": "Les 5 ans du GDG CLOUD ABIDJAN",
+      "speaker": "EZEKIAS BOKOVE",
+      "type": "celebration"
+    },
+    {
+      "time": "16:30-16:50",
+      "title": "Récompense Hackathon et Clôture de l'événement",
+      "type": "closing"
+    }
+  ]
+}

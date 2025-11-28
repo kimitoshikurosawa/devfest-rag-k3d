@@ -1,0 +1,69 @@
+{
+  "profile": {
+    "name": "Kimana Misago",
+    "location": "Abidjan, Côte d'Ivoire",
+    "roles": [
+      {
+        "title": "Co-founder & CTO",
+        "company": "Ivoire.pro",
+        "description": "Plateforme d'identité digitale pour professionnels ouest-africains",
+        "focus": ["Digital Identity", "Data Sovereignty", "West African Tech Ecosystem"]
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "Cabinet MARABU",
+        "clients": "200+ clients including GUCE-CI and ERANOVE",
+        "focus": ["Cloud Infrastructure", "Kubernetes", "CI/CD Systems"]
+      },
+      {
+        "title": "Lead",
+        "company": "IvoryGuards",
+        "description": "Cybersecurity consulting collective in Abidjan",
+        "focus": ["Security Audits", "Technical Assessments", "Training"]
+      }
+    ],
+    "experience": {
+      "years": "9+",
+      "sectors": ["Insurance", "Fintech", "Government", "E-commerce"],
+      "expertise": [
+        "Cloud Infrastructure (AWS, GCP, Azure)",
+        "Kubernetes & Container Orchestration",
+        "CI/CD Pipeline Design",
+        "DevOps Best Practices",
+        "Cybersecurity",
+        "Digital Sovereignty Solutions"
+      ]
+    },
+    "certifications": [
+      "KCNA (Kubernetes and Cloud Native Associate)",
+      "Google Cloud Certified"
+    ],
+    "community": {
+      "blog": "kimana.ivoire.pro",
+      "focus": "Cybersecurity storytelling and technical content",
+      "speaking": [
+        {
+          "event": "DevFest Abidjan 2025",
+          "date": "2025-11-29",
+          "talk": "De Kubernetes à Gemma : Déployer un Agent IA (RAG) en Live"
+        }
+      ]
+    },
+    "entrepreneurial_ventures": [
+      "Ivoire.pro - Digital identity platform",
+      "IvoryGuards - Cybersecurity consulting",
+      "MPlaces Africa - E-commerce platform (past)",
+      "DOMOSO CONNECT - Rural connectivity solutions (past)",
+      "NOMALO - P2P marketplace (past)"
+    ],
+    "technical_skills": {
+      "cloud_platforms": ["AWS", "GCP", "Azure"],
+      "containers": ["Docker", "Kubernetes", "K3s", "K3D"],
+      "cicd": ["GitLab CI", "GitHub Actions", "Jenkins"],
+      "infrastructure": ["Terraform", "Ansible"],
+      "monitoring": ["Prometheus", "Grafana", "K9s"],
+      "languages": ["Python", "Bash", "Go"],
+      "ai_ml": ["LangChain", "RAG Systems", "Local LLMs", "Ollama", "Gemma"]
+    }
+  }
+}
