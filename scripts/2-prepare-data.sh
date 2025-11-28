@@ -19,9 +19,10 @@ import sys
 import os
 from pathlib import Path
 
-# Add src to path
-project_root = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(project_root / "src"))
+# Get current directory and add src to path
+current_dir = Path.cwd()
+src_dir = current_dir / "src"
+sys.path.insert(0, str(src_dir))
 
 from vectorstore import ChromaManager
 import logging
@@ -33,7 +34,7 @@ logger = logging.getLogger(__name__)
 chroma_manager = ChromaManager()
 
 # Data directories
-data_dir = project_root / "data"
+data_dir = current_dir / "data"
 
 # Load DevFest data
 logger.info("Loading DevFest data...")
