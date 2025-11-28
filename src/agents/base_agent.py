@@ -5,8 +5,8 @@ import logging
 from typing import Dict, Any, List, Optional
 from abc import ABC, abstractmethod
 
-from ..utils.ollama_client import OllamaClient
-from ..vectorstore.chroma_manager import ChromaManager
+from utils.ollama_client import OllamaClient
+from vectorstore import ChromaManager
 
 logger = logging.getLogger(__name__)
 

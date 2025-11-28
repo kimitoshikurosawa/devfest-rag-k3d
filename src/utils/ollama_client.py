@@ -18,8 +18,8 @@ class OllamaClient:
         model: str = None
     ):
         self.host = host or os.getenv("OLLAMA_HOST", "http://localhost:11434")
-        self.model = model or os.getenv("OLLAMA_MODEL", "gemma2:2b")
-        self.api_url = f"{self.host}/api/generate"
+        self.model = model or os.getenv("OLLAMA_MODEL", "gemma3n:latest")
+        self.api_url = f"{self.host}/api/chat"  # Changed for v0.13+
         
         logger.info(f"OllamaClient initialized with host={self.host}, model={self.model}")
     
@@ -43,9 +43,15 @@ class OllamaClient:
             Dict with response and metadata
         """
         try:
+            # Build messages for chat API
+            messages = []
+            if system:
+                messages.append({"role": "system", "content": system})
+            messages.append({"role": "user", "content": prompt})
+            
             payload = {
                 "model": self.model,
-                "prompt": prompt,
+                "messages": messages,
                 "stream": False,
                 "options": {
                     "temperature": temperature,
@@ -53,22 +59,23 @@ class OllamaClient:
                 }
             }
             
-            if system:
-                payload["system"] = system
-            
             logger.info(f"Sending request to Ollama: {prompt[:100]}...")
             
             response = requests.post(
                 self.api_url,
                 json=payload,
-                timeout=120  # 2 min timeout pour GPU
+                timeout=120  # 2 min timeout for GPU
             )
             response.raise_for_status()
             
             result = response.json()
             
+            # Extract content from chat response
+            message = result.get("message", {})
+            content = message.get("content", "")
+            
             return {
-                "text": result.get("response", ""),
+                "text": content,
                 "model": self.model,
                 "done": result.get("done", False),
                 "tokens": result.get("eval_count", 0)

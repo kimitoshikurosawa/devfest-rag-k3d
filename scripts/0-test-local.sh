@@ -26,11 +26,11 @@ echo ""
 
 # Check if Gemma is available
 echo -e "${YELLOW}Checking Gemma model...${NC}"
-if ! ollama list | grep -q "gemma2:2b"; then
-    echo -e "${YELLOW}! Gemma 2B not found, pulling...${NC}"
-    ollama pull gemma2:2b
+if ! ollama list | grep -q "gemma3n:latest"; then
+    echo -e "${YELLOW}! Gemma 3n not found, pulling...${NC}"
+    ollama pull gemma3n:latest
 fi
-echo -e "${GREEN}✓ Gemma 2B available${NC}"
+echo -e "${GREEN}✓ Gemma 3n available${NC}"
 echo ""
 
 # Prepare data if not done

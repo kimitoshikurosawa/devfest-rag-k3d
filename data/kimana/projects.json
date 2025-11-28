@@ -8,8 +8,7 @@
         "status": "Active",
         "description": "Cabinet de conseil en transformation digitale servant 200+ clients",
         "key_clients": [
-          "GUCE-CI (Guichet Unique du Commerce Extérieur)",
-          "ERANOVE (Groupe énergétique)"
+          "GUCE-CI (Guichet Unique du Commerce Extérieur)"
         ],
         "services": [
           "Cloud Infrastructure Design",
