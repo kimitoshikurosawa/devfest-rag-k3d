@@ -26,9 +26,9 @@ echo ""
 
 # Check if Gemma is available
 echo -e "${YELLOW}Checking Gemma model...${NC}"
-if ! ollama list | grep -q "gemma3n:latest"; then
+if ! ollama list | grep -q "gemma3:270m"; then
     echo -e "${YELLOW}! Gemma 3n not found, pulling...${NC}"
-    ollama pull gemma3n:latest
+    ollama pull gemma3:270m
 fi
 echo -e "${GREEN}✓ Gemma 3n available${NC}"
 echo ""

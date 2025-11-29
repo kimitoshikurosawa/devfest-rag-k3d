@@ -18,7 +18,7 @@ class OllamaClient:
         model: str = None
     ):
         self.host = host or os.getenv("OLLAMA_HOST", "http://localhost:11434")
-        self.model = model or os.getenv("OLLAMA_MODEL", "gemma3n:latest")
+        self.model = model or os.getenv("OLLAMA_MODEL", "gemma3:270m")
         self.api_url = f"{self.host}/api/chat"  # Changed for v0.13+
         
         logger.info(f"OllamaClient initialized with host={self.host}, model={self.model}")

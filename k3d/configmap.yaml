@@ -5,7 +5,7 @@ metadata:
   namespace: devfest
 data:
   OLLAMA_HOST: "http://host.k3d.internal:11434"
-  OLLAMA_MODEL: "gemma3n:latest"
+  OLLAMA_MODEL: "gemma3:270m"
   CHROMA_COLLECTION_DEVFEST: "devfest_docs"
   CHROMA_COLLECTION_KIMANA: "kimana_docs"
   EMBEDDING_MODEL: "sentence-transformers/all-MiniLM-L6-v2"
