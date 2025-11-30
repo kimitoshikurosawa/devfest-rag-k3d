@@ -2,7 +2,7 @@
   "projects_and_companies": {
     "active_ventures": [
       {
-        "name": "Cabinet MARABU",
+        "name": "Consultant",
         "role": "Senior DevOps Engineer",
         "type": "Consulting",
         "status": "Active",
@@ -97,7 +97,6 @@
       ],
       "clients": [
         "Government entities (GUCE-CI)",
-        "Energy sector (ERANOVE)",
         "Financial services",
         "Technology startups"
       ]
